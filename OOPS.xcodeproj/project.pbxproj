@@ -17,6 +17,7 @@
 		9F42DB9A197454FF00177551 /* MessagingNetworkBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2176761972FDAB0010C8F9 /* MessagingNetworkBase.m */; };
 		9F42DB9B197454FF00177551 /* SharingNetworkBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2176781972FDAB0010C8F9 /* SharingNetworkBase.m */; };
 		9F42DB9C197454FF00177551 /* SocialNetworkBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21767A1972FDAB0010C8F9 /* SocialNetworkBase.m */; };
+		9F42DB9F197455E600177551 /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F42DB9E197455E600177551 /* Twitter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,8 @@
 		9F2176791972FDAB0010C8F9 /* SocialNetworkBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialNetworkBase.h; sourceTree = "<group>"; };
 		9F21767A1972FDAB0010C8F9 /* SocialNetworkBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialNetworkBase.m; sourceTree = "<group>"; };
 		9F21767B1972FFFF0010C8F9 /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
+		9F42DB9D197455E600177551 /* Twitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Twitter.h; sourceTree = "<group>"; };
+		9F42DB9E197455E600177551 /* Twitter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Twitter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +124,8 @@
 				9F217666197091B00010C8F9 /* WhatsAppNetwork.m */,
 				9F21766E197099480010C8F9 /* FaceBookNetwork.h */,
 				9F21766F197099480010C8F9 /* FaceBookNetwork.m */,
+				9F42DB9D197455E600177551 /* Twitter.h */,
+				9F42DB9E197455E600177551 /* Twitter.m */,
 			);
 			path = "Network Classes";
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 				9F21767319709F4E0010C8F9 /* SocialPost.m in Sources */,
 				9F21766419708FE70010C8F9 /* Message.m in Sources */,
 				9F21764F19708BDE0010C8F9 /* main.m in Sources */,
+				9F42DB9F197455E600177551 /* Twitter.m in Sources */,
 				9F217667197091B00010C8F9 /* WhatsAppNetwork.m in Sources */,
 				9F217670197099480010C8F9 /* FaceBookNetwork.m in Sources */,
 			);

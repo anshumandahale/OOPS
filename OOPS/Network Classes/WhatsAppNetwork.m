@@ -10,6 +10,13 @@
 
 @implementation WhatsAppNetwork
 
+- (id) init {
+    
+    self = [super init];
+    self.socialNetworkName = @"Whats App";
+    return self;
+}
+
 - (void) setShowLastSeen:(BOOL)showLastSeen {
     
     if(showLastSeen) {

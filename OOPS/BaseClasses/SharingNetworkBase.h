@@ -9,7 +9,7 @@
 #import "SocialNetworkBase.h"
 
 // Model
-#import "SocialPost.h"
+@class SocialPost;
 @protocol ShareNetworkDatasource <NSObject>
 
 - (SocialPost *) getThePostToShare;
@@ -22,5 +22,5 @@
 
 @property (nonatomic, weak) id <ShareNetworkDatasource> dataSource;
 
-- (void) sharePost;
+- (void) sharePost:(SocialPost *)post;
 @end

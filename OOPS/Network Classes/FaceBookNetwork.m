@@ -23,7 +23,7 @@
 - (id) init {
     
     self = [super init];
-    self.socialPost.sharedBy = self.userName;
+    self.socialNetworkName = @"FaceBook";
     return self;
 }
 
@@ -32,8 +32,9 @@
     
     self.socialPost = post;
     self.shareNetwork = [[SharingNetworkBase alloc] init];
+    self.socialPost.sharedBy = self.userName;
     self.shareNetwork.dataSource = self;
-    [self.shareNetwork sharePost];
+    [self.shareNetwork sharePost:nil];
 }
 
 

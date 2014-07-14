@@ -10,13 +10,13 @@
 
 @implementation SocialNetworkBase
 
-- (void) login:(SocialNetworkBase *)social {
+- (void) login {
     
     NSLog(@"Login with username: %@ and Password: %@", self.userName, self.userPassword);
     [self loginTheUser];
 }
 
-- (void) logout:(SocialNetworkBase *)social {
+- (void) logout {
     
     NSLog(@"Logout from user: %@", self.userName);
 }

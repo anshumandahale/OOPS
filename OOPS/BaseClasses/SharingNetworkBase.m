@@ -11,9 +11,16 @@
 
 @implementation SharingNetworkBase
 
-- (void) sharePost {
+- (void) sharePost:(SocialPost *)socialPost {
     
-    if([self.dataSource respondsToSelector:@selector(getThePostToShare)]) {
+    if(socialPost) {
+        
+        NSLog(@"Share Post: \"%@\" with users: %@", socialPost.post, socialPost.sharedWith);
+        return;
+    }
+    
+    
+    else if([self.dataSource respondsToSelector:@selector(getThePostToShare)]) {
         
         SocialPost *post = [self.dataSource getThePostToShare];
         NSLog(@"Share Post: \"%@\" with users: %@", post.post, post.sharedWith);

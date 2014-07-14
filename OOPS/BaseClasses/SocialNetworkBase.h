@@ -17,7 +17,7 @@
 
 
 // Methods
-- (void) login  :(SocialNetworkBase *)social;
-- (void) logout :(SocialNetworkBase *)social;
+- (void) login;
+- (void) logout;
 
 @end
