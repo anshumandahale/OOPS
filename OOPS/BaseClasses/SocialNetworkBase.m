@@ -12,7 +12,7 @@
 
 - (void) login {
     
-    NSLog(@"Login with username: %@ and Password: %@", self.userName, self.userPassword);
+    NSLog(@"Login with username: %@ and Password: %@ On Network: %@", self.userName, self.userPassword, self.socialNetworkName);
     [self loginTheUser];
 }
 

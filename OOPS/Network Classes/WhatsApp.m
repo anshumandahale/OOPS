@@ -6,15 +6,25 @@
 //  Copyright (c) 2014 Anshuman Dahale. All rights reserved.
 //
 
-#import "WhatsAppNetwork.h"
+#import "WhatsApp.h"
 
-@implementation WhatsAppNetwork
+@implementation WhatsApp
 
 - (id) init {
     
     self = [super init];
     self.socialNetworkName = @"Whats App";
     return self;
+}
+
+- (void) login {
+    
+    NSLog(@"Register the user");
+}
+
+- (void) logout {
+    
+    NSLog(@"Unregister the user");
 }
 
 - (void) setShowLastSeen:(BOOL)showLastSeen {

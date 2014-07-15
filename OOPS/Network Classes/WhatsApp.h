@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Anshuman Dahale. All rights reserved.
 //
 
-#import "MessagingNetworkBase.h"
+#import "MessagingBase.h"
 
-@interface WhatsAppNetwork : MessagingNetworkBase
+@interface WhatsApp : MessagingBase
 
 @property (nonatomic) BOOL showLastSeen;
 

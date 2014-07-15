@@ -6,10 +6,9 @@
 //  Copyright (c) 2014 Anshuman Dahale. All rights reserved.
 //
 
-#import "SharingNetworkBase.h"
+#import "SharingBase.h"
 
-@interface Twitter : SharingNetworkBase
+@interface Twitter : SharingBase
 
-- (void) sharePost:(SocialPost *)post;
 
 @end

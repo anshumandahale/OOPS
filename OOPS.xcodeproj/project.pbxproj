@@ -11,11 +11,11 @@
 		9F21764F19708BDE0010C8F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21764E19708BDE0010C8F9 /* main.m */; };
 		9F21765319708BDE0010C8F9 /* OOPS.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9F21765219708BDE0010C8F9 /* OOPS.1 */; };
 		9F21766419708FE70010C8F9 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21766319708FE70010C8F9 /* Message.m */; };
-		9F217667197091B00010C8F9 /* WhatsAppNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F217666197091B00010C8F9 /* WhatsAppNetwork.m */; };
-		9F217670197099480010C8F9 /* FaceBookNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21766F197099480010C8F9 /* FaceBookNetwork.m */; };
+		9F217667197091B00010C8F9 /* WhatsApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F217666197091B00010C8F9 /* WhatsApp.m */; };
+		9F217670197099480010C8F9 /* FaceBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21766F197099480010C8F9 /* FaceBook.m */; };
 		9F21767319709F4E0010C8F9 /* SocialPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21767219709F4E0010C8F9 /* SocialPost.m */; };
-		9F42DB9A197454FF00177551 /* MessagingNetworkBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2176761972FDAB0010C8F9 /* MessagingNetworkBase.m */; };
-		9F42DB9B197454FF00177551 /* SharingNetworkBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2176781972FDAB0010C8F9 /* SharingNetworkBase.m */; };
+		9F42DB9A197454FF00177551 /* MessagingBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2176761972FDAB0010C8F9 /* MessagingBase.m */; };
+		9F42DB9B197454FF00177551 /* SharingBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2176781972FDAB0010C8F9 /* SharingBase.m */; };
 		9F42DB9C197454FF00177551 /* SocialNetworkBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F21767A1972FDAB0010C8F9 /* SocialNetworkBase.m */; };
 		9F42DB9F197455E600177551 /* Twitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F42DB9E197455E600177551 /* Twitter.m */; };
 /* End PBXBuildFile section */
@@ -41,16 +41,16 @@
 		9F21765219708BDE0010C8F9 /* OOPS.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = OOPS.1; sourceTree = "<group>"; };
 		9F21766219708FE70010C8F9 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
 		9F21766319708FE70010C8F9 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
-		9F217665197091B00010C8F9 /* WhatsAppNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhatsAppNetwork.h; sourceTree = "<group>"; };
-		9F217666197091B00010C8F9 /* WhatsAppNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhatsAppNetwork.m; sourceTree = "<group>"; };
-		9F21766E197099480010C8F9 /* FaceBookNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceBookNetwork.h; sourceTree = "<group>"; };
-		9F21766F197099480010C8F9 /* FaceBookNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceBookNetwork.m; sourceTree = "<group>"; };
+		9F217665197091B00010C8F9 /* WhatsApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhatsApp.h; sourceTree = "<group>"; };
+		9F217666197091B00010C8F9 /* WhatsApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhatsApp.m; sourceTree = "<group>"; };
+		9F21766E197099480010C8F9 /* FaceBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceBook.h; sourceTree = "<group>"; };
+		9F21766F197099480010C8F9 /* FaceBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceBook.m; sourceTree = "<group>"; };
 		9F21767119709F4E0010C8F9 /* SocialPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialPost.h; sourceTree = "<group>"; };
 		9F21767219709F4E0010C8F9 /* SocialPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialPost.m; sourceTree = "<group>"; };
-		9F2176751972FDAB0010C8F9 /* MessagingNetworkBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagingNetworkBase.h; sourceTree = "<group>"; };
-		9F2176761972FDAB0010C8F9 /* MessagingNetworkBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagingNetworkBase.m; sourceTree = "<group>"; };
-		9F2176771972FDAB0010C8F9 /* SharingNetworkBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharingNetworkBase.h; sourceTree = "<group>"; };
-		9F2176781972FDAB0010C8F9 /* SharingNetworkBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharingNetworkBase.m; sourceTree = "<group>"; };
+		9F2176751972FDAB0010C8F9 /* MessagingBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagingBase.h; sourceTree = "<group>"; };
+		9F2176761972FDAB0010C8F9 /* MessagingBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagingBase.m; sourceTree = "<group>"; };
+		9F2176771972FDAB0010C8F9 /* SharingBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharingBase.h; sourceTree = "<group>"; };
+		9F2176781972FDAB0010C8F9 /* SharingBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharingBase.m; sourceTree = "<group>"; };
 		9F2176791972FDAB0010C8F9 /* SocialNetworkBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocialNetworkBase.h; sourceTree = "<group>"; };
 		9F21767A1972FDAB0010C8F9 /* SocialNetworkBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocialNetworkBase.m; sourceTree = "<group>"; };
 		9F21767B1972FFFF0010C8F9 /* License */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License; sourceTree = "<group>"; };
@@ -120,10 +120,10 @@
 		9F21765D19708E540010C8F9 /* Network Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9F217665197091B00010C8F9 /* WhatsAppNetwork.h */,
-				9F217666197091B00010C8F9 /* WhatsAppNetwork.m */,
-				9F21766E197099480010C8F9 /* FaceBookNetwork.h */,
-				9F21766F197099480010C8F9 /* FaceBookNetwork.m */,
+				9F217665197091B00010C8F9 /* WhatsApp.h */,
+				9F217666197091B00010C8F9 /* WhatsApp.m */,
+				9F21766E197099480010C8F9 /* FaceBook.h */,
+				9F21766F197099480010C8F9 /* FaceBook.m */,
 				9F42DB9D197455E600177551 /* Twitter.h */,
 				9F42DB9E197455E600177551 /* Twitter.m */,
 			);
@@ -144,10 +144,10 @@
 		9F2176741972FDAB0010C8F9 /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
-				9F2176751972FDAB0010C8F9 /* MessagingNetworkBase.h */,
-				9F2176761972FDAB0010C8F9 /* MessagingNetworkBase.m */,
-				9F2176771972FDAB0010C8F9 /* SharingNetworkBase.h */,
-				9F2176781972FDAB0010C8F9 /* SharingNetworkBase.m */,
+				9F2176751972FDAB0010C8F9 /* MessagingBase.h */,
+				9F2176761972FDAB0010C8F9 /* MessagingBase.m */,
+				9F2176771972FDAB0010C8F9 /* SharingBase.h */,
+				9F2176781972FDAB0010C8F9 /* SharingBase.m */,
 				9F2176791972FDAB0010C8F9 /* SocialNetworkBase.h */,
 				9F21767A1972FDAB0010C8F9 /* SocialNetworkBase.m */,
 			);
@@ -205,15 +205,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F42DB9A197454FF00177551 /* MessagingNetworkBase.m in Sources */,
-				9F42DB9B197454FF00177551 /* SharingNetworkBase.m in Sources */,
+				9F42DB9A197454FF00177551 /* MessagingBase.m in Sources */,
+				9F42DB9B197454FF00177551 /* SharingBase.m in Sources */,
 				9F42DB9C197454FF00177551 /* SocialNetworkBase.m in Sources */,
 				9F21767319709F4E0010C8F9 /* SocialPost.m in Sources */,
 				9F21766419708FE70010C8F9 /* Message.m in Sources */,
 				9F21764F19708BDE0010C8F9 /* main.m in Sources */,
 				9F42DB9F197455E600177551 /* Twitter.m in Sources */,
-				9F217667197091B00010C8F9 /* WhatsAppNetwork.m in Sources */,
-				9F217670197099480010C8F9 /* FaceBookNetwork.m in Sources */,
+				9F217667197091B00010C8F9 /* WhatsApp.m in Sources */,
+				9F217670197099480010C8F9 /* FaceBook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

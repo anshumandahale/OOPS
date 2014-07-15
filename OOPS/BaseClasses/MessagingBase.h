@@ -9,9 +9,8 @@
 #import "SocialNetworkBase.h"
 @class Message;
 
-@interface MessagingNetworkBase : SocialNetworkBase
+@interface MessagingBase : SocialNetworkBase
 
 - (void) sendMessage:(Message *)message;
-- (void) getMessages:(NSArray *)messages;
 
 @end

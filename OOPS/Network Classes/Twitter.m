@@ -7,6 +7,7 @@
 //
 
 #import "Twitter.h"
+#import "SocialPost.h"
 
 @implementation Twitter
 
@@ -21,7 +22,7 @@
     
     //Tweet instead of shareing
     
-    NSLog(@"Tweet: %@\nTweet By: %@\nTo: %@", post.post, self.userName, post.sharedWith);
+    NSLog(@"Tweet: %@\nTweet By: %@", post.post, self.userName);
 }
 
 @end
